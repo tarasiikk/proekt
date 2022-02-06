@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header__wrap, .main__wrap, .footer__wrap{
+    min-height: 300px; /*Это необязательно (для наглядности)*/
+  }
+  header{
+    background-color: #104A39
+  }
+  footer{
+    background-color: #1D1D1D;
+  }
+  .container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
